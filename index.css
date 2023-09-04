@@ -4,7 +4,7 @@
 
 body{
     background-color: blueviolet;
-    height: 1000px;
+    height: 770px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -22,9 +22,10 @@ body{
     height: 70px;
     width: 70px;
     border: 0;
-    transition: width 0.5s ease;
+    transition: 0.5s;
     padding: 20px;
     font-size: 20px;
+    transition: 0.5s;
 }
 
 .container .btn{
@@ -36,19 +37,25 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.5s ease; 
+    transition: 0.5s; 
 }
 
 .container.active .input{
     width: 90%;
+    transition: 0.5s;
 }
 
 .input:focus{
     outline: none;
 }
 
+.btn:focus{
+    outline: none;
+}
+
 .container.active .btn{
     transform: translateX(220px);
+    transition: 0.5s;
 }
 
 .img{
