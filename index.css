@@ -14,13 +14,13 @@ body{
 
 .container{
    position: relative;
-   height: 40px;
+   height: 70px;
 }
 
 .container .input{
     background-color: white;
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     border: 0;
     transition: width 0.5s ease;
     padding: 20px;
@@ -30,8 +30,8 @@ body{
 .container .btn{
     background-color: white;
     cursor: pointer;
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     border: 0px;
     position: absolute;
     top: 0;
@@ -43,11 +43,15 @@ body{
     width: 90%;
 }
 
+.input:focus{
+    outline: none;
+}
+
 .container.active .btn{
     transform: translateX(220px);
 }
 
 .img{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
